@@ -1,0 +1,1060 @@
+<!-- === BEGIN HEADER === -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <!-- Title -->
+    <title>방풀-게시판</title>
+    <!-- Meta -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Favicon -->
+    <link href="favicon.ico" rel="shortcut icon">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
+    <!-- Google Fonts-->
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+
+
+    <style>
+        #ultag li {
+            display: inline;
+            padding: 0 30px;
+        }
+
+        #table th {
+            width: 150px;
+
+        }
+
+        #table td {
+            width: 150px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="body-bg">
+        <!-- Phone/Email -->
+        <div id="pre-header" class="background-gray-lighter">
+            <div class="container no-padding">
+                <div class="row hidden-xs">
+                    <div class="col-sm-6 padding-vert-5">
+                        <strong>전화번호:</strong>&nbsp;+82-10-6786-4567
+                    </div>
+                    <div class="col-sm-6 text-right padding-vert-5">
+                        <a href="#login" style="color:black">로그인</a>&nbsp;&nbsp;&nbsp;
+                        |&nbsp;&nbsp;&nbsp;<a href="#" style="color:black">회원가입</a>&nbsp;&nbsp;&nbsp;
+                        |&nbsp;&nbsp;&nbsp;<a href="#" style="color:black">정보찾기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Phone/Email -->
+        <!-- Header -->
+        <div id="header">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html" title="" style="top:5px">
+                            <img src="assets/img/BP_logo7.png" alt="Logo" />
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                </div>
+            </div>
+        </div>
+        <!-- End Header -->
+        <!-- Top Menu -->
+        <div id="hornav" class="bottom-border-shadow">
+            <div class="container no-padding border-bottom">
+                <div class="row">
+                    <div class="col-md-8 no-padding">
+                        <div class="visible-lg">
+                            <ul id="hornavmenu" class="nav navbar-nav" style="width:800px">
+                                <li>
+                                    <a href="javascript:;" data-toggle="collapse" data-target="#menu-all"
+                                        class="glyphicon glyphicon-list"></a>
+                                </li>
+                                <!-- 
+                                            glyphicon glyphicon-th
+                                            glyphicon glyphicon-list
+                                            glyphicon glyphicon-align-justify
+                                        -->
+                                <li>
+                                    <span class="glyphicon glyphicon-user "> 룸메이트</span>
+                                    <ul>
+                                        <li class="parent">
+                                            <span>Typography</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="features-typo-basic.html">Basic Typography</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-typo-blockquotes.html">Blockquotes</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="parent">
+                                            <span>Components</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="features-labels.html">Labels</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-progress-bars.html">Progress Bars</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-panels.html">Panels</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-pagination.html">Pagination</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="parent">
+                                            <span>Icons</span>
+                                            <ul>
+                                                <li>
+                                                    <a href="features-icons.html">Icons General</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-icons-social.html">Social Icons</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-icons-font-awesome.html">Font Awesome</a>
+                                                </li>
+                                                <li>
+                                                    <a href="features-icons-glyphicons.html">Glyphicons</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="features-testimonials.html">Testimonials</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-accordions-tabs.html">Accordions & Tabs</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-buttons.html">Buttons</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-carousels.html">Carousels</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-grid.html">Grid System</a>
+                                        </li>
+                                        <li>
+                                            <a href="features-animate-on-scroll.html">Animate On Scroll</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="glyphicon glyphicon-home "> 하우스메이트</span>
+                                    <ul>
+                                        <li>
+                                            <a href="pages-about-us.html">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-services.html">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-faq.html">F.A.Q.</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-about-me.html">About Me</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-full-width.html">Full Width</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-left-sidebar.html">Left Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-right-sidebar.html">게시판 1</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-login.html">Login</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-sign-up.html">Sign-Up</a>
+                                        </li>
+                                        <li>
+                                            <a href="pages-404.html">404 Error Page</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="glyphicon glyphicon-book"> 신입생메이트</span>
+                                    <ul>
+                                        <li>
+                                            <a href="portfolio-2-column.html">2 Column</a>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio-3-column.html">3 Column</a>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio-4-column.html">4 Column</a>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio-6-column.html">6 Column</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="glyphicon glyphicon-refresh "> 중고물품</span>
+                                    <ul>
+                                        <li>
+                                            <a href="blog-list.html">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="blog-single.html">Blog Single Item</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+
+                                    <a href="contact.html" class="fa fa-comments "> 커뮤니티</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 no-padding">
+                        <ul class="social-icons pull-right">
+                            <li class="social-rss">
+                                <a href="#" target="_blank" title="RSS"></a>
+                            </li>
+                            <li class="social-twitter">
+                                <a href="#" class="fa fa-bell-o"></a>
+                            </li>
+                            <li class="social-facebook">
+                                <a href="#" class="glyphicon glyphicon-search"></a>
+                            </li>
+                            <li class="social-googleplus">
+                                <a href="#" target="_blank" title="Google+"></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 토글 div 추가 -->
+
+        <div id="menu-all" class="accordion-body collapse " style="color:rgb(37, 28, 28)">
+            <div class="bottom-border-shadow">
+                <div class="container background-gray-lighter bottom-border">
+
+                    <!-- <hr class="margin-top-30"> -->
+                    <div class="row padding-vert-30">
+
+                        <div class="col-md-9" style="float:unset; width:fit-content; margin:auto; padding-top:3%">
+                            <div class="panel panel-default" style="vertical-align: middle;">
+                                <div class="panel-heading">
+                                    <!-- <ul style="list-style: none; " id="ultag" style="text-;">
+                                                           <li>룸메이트</li>
+                                                           <li>하우스메이트</li>
+                                                           <li>신입생메이트</li>
+                                                           <li>중고물품</li>
+                                                           <li>커뮤니티</li>
+                                                       </ul> -->
+                                    <table style="width:100%; " id="table">
+                                        <thead>
+                                            <tr style="list-style: none; ">
+                                                <th style="text-align: center;">룸메이트</th>
+                                                <th style="text-align: center;">하우스메이트</th>
+                                                <th style="text-align: center;">신입생메이트</th>
+                                                <th style="text-align: center;">중고물품</th>
+                                                <th style="text-align: center;">커뮤니티</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                                <div class="panel-body">
+                                    <!-- <ul style="text-align:center; padding-inline-start:0; "  >
+                                                    <li style="display: inline-flex; " >
+                                                        <ul style="list-style: none; margin-right:20px">
+                                                            <li><a href="#">서울</a></li>
+                                                            <li><a href="#">인천/부천</a></li>
+                                                            <li><a href="#">수원/경기</a></li>
+                                                            <li>대구/경북</li>
+                                                            <li>부산/경남</li>
+                                                            <li>충청/강원</li>
+                                                            <li>광주/전라</li>
+                                                        </ul>
+                                                        <ul style="list-style: none; margin-right:20px">
+                                                            <li><a href="#">서울</a></li>
+                                                            <li><a href="#">인천/부천</a></li>
+                                                            <li><a href="#">수원/경기</a></li>
+                                                            <li><a href="#">대구/경북</a></li>
+                                                            <li>부산/경남</li>
+                                                            <li>충청/강원</li>
+                                                            <li>광주/전라</li>
+                                                        </ul>   
+                                                        <ul style="list-style: none; margin-right:20px">
+                                                            <li><a href="#">서울</a></li>
+                                                            <li><a href="#">인천/부천</a></li>
+                                                            <li><a href="#">수원/경기</a></li>
+                                                            <li><a href="#">대구/경북</a></li>
+                                                            <li>대구/경북</li>
+                                                            <li>부산/경남</li>
+                                                            <li>충청/강원</li>
+                                                            <li>광주/전라</li>
+                                                        </ul>   
+                                                        <ul style="list-style: none; margin-right:20px">
+                                                            <li><a href="#">서울</a></li>
+                                                            <li><a href="#">인천/부천</a></li>
+                                                            <li><a href="#">수원/경기</a></li>
+                                                            <li><a href="#">대구/경북</a></li>
+                                                            <li>대구/경북</li>
+                                                            <li>부산/경남</li>
+                                                            <li>충청/강원</li>
+                                                            <li>광주/전라</li>      
+                                                        </ul>   
+                                                        <ul style="list-style: none; margin-right:20px">
+                                                            <li>회원 자유게시판</li>
+                                                            <li>친구만들기</li>
+                                                            <li>이쁜집 구경하기</li>
+                                                            <li>룸메&하메 상식</li>
+                                                            <li>회원 질문/답변</li>
+                                                            <li>공지사항&이벤트</li>
+                                                        </ul>   
+                                                       
+                                                    </li>
+                                                    </ul>    -->
+                                    <table style="width:100%; " id="table">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center;">
+                                                    <ul style="list-style: none; padding:0px">
+                                                        <li><a href="#">서울</a></li>
+                                                        <li><a href="#">인천/부천</a></li>
+                                                        <li><a href="#">수원/경기</a></li>
+                                                        <li>대구/경북</li>
+                                                        <li>부산/경남</li>
+                                                        <li>충청/강원</li>
+                                                        <li>광주/전라</li>
+                                                    </ul>
+                                                </td>
+                                                <td style="text-align: center;">
+                                                    <ul style="list-style: none; padding:0px">
+                                                        <li><a href="#">서울</a></li>
+                                                        <li><a href="#">인천/부천</a></li>
+                                                        <li><a href="#">수원/경기</a></li>
+                                                        <li><a href="#">대구/경북</a></li>
+                                                        <li>부산/경남</li>
+                                                        <li>충청/강원</li>
+                                                        <li>광주/전라</li>
+                                                    </ul>
+                                                </td>
+                                                <td style="text-align: center;">
+                                                    <ul style="list-style: none; padding:0px">
+                                                        <li><a href="#">서울</a></li>
+                                                        <li><a href="#">인천/부천</a></li>
+                                                        <li><a href="#">수원/경기</a></li>
+                                                        <li><a href="#">대구/경북</a></li>
+                                                        <li>부산/경남</li>
+                                                        <li>충청/강원</li>
+                                                        <li>광주/전라</li>
+                                                    </ul>
+
+
+                                                </td>
+                                                <td style="text-align: center;">
+                                                    <ul style="list-style: none; padding:0px">
+                                                        <li><a href="#">서울</a></li>
+                                                        <li><a href="#">인천/부천</a></li>
+                                                        <li><a href="#">수원/경기</a></li>
+                                                        <li><a href="#">대구/경북</a></li>
+                                                        <li>부산/경남</li>
+                                                        <li>충청/강원</li>
+                                                        <li>광주/전라</li>
+                                                    </ul>
+                                                </td>
+                                                <td style="text-align: center;">
+                                                    <ul style="list-style: none; padding:0px ;">
+                                                        <li>회원 자유게시판</li>
+                                                        <li>친구만들기</li>
+                                                        <li>이쁜집 구경하기</li>
+                                                        <li>룸메&하메 상식</li>
+                                                        <li>회원 질문/답변</li>
+                                                        <li>공지사항&이벤트</li>
+                                                    </ul>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <hr class="margin-top-30">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 토글 끝 -->
+
+        <!-- End Top Menu -->
+        <!-- === END HEADER === -->
+        <!-- === BEGIN CONTENT === -->
+
+
+        <div id="content">
+
+                <div id="slideshow" class="bottom-border-shadow">
+            <div class="container background-grey bottom-border">
+
+                <div class="margin-bottom-10">
+                    <hr>
+                </div>
+                <div class="row">
+                    <!-- Carousel Slideshow -->
+                    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example" data-slide-to="1"></li>
+                            <li data-target="#carousel-example" data-slide-to="2"></li>
+                            <li data-target="#carousel-example" data-slide-to="3"></li>
+                            <li data-target="#carousel-example" data-slide-to="4"></li>
+                            <li data-target="#carousel-example" data-slide-to="5"></li>
+                        </ol>
+                        <div class="clearfix"></div>
+                        <!-- End Carousel Indicators -->
+                        <!-- Carousel Images -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="assets/img/slideshow/BPslide.png">
+                            </div>
+                            <div class="item">
+                                <!-- <img src="assets/img/slideshow/BPads1.png"> -->
+                                <img src="assets/img/slideshow/BPslide.png">
+                            </div>
+
+                            <div class="item">
+                                <!-- <img src="assets/img/slideshow/SELLENT3.png"> -->
+                                <img src="assets/img/slideshow/BPslide.png">
+                            </div>
+                            <div class="item">
+                                <!-- <img src="assets/img/slideshow/TMC6.png"> -->
+                                <img src="assets/img/slideshow/BPslide.png">
+                            </div>
+                            <div class="item">
+                                <!-- <img src="assets/img/slideshow/SELLENT1.png"> -->
+                                <img src="assets/img/slideshow/BPslide.png">
+                            </div>
+                            <div class="item">
+                                <!-- <img src="assets/img/slideshow/JSG1.png"> -->
+                                <img src="assets/img/slideshow/BPslide.png">
+                            </div>
+
+                        </div>
+                        <!-- End Carousel Images -->
+                        <!-- Carousel Controls -->
+                        <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example" data-slide="next">
+                            <span id="login" class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                        <!-- End Carousel Controls -->
+                    </div>
+                    <!-- End Carousel Slideshow -->
+                </div>
+                <br>
+                <br>
+            </div>
+            
+           
+        </div>
+        <div class="margin-bottom-20">
+                <hr>
+            </div>
+            <div class="container background-white">
+
+                <div class="row margin-vert-30">
+                    <!-- Main Column -->
+                    <div class="col-md-9">
+                        <!-- Tab v2 -->
+                        <div class="tabs alternative">
+                            <ul class="nav nav-tabs">
+                                <li class="active">
+                                    <a href="#sample-2a" data-toggle="tab">전체</a>
+                                </li>
+                                <li>
+                                    <a href="#sample-2a" data-toggle="tab">서울</a>
+                                </li>
+                                <li>
+                                    <a href="#sample-2b" data-toggle="tab">인천/부천</a>
+                                </li>
+                                <li>
+                                    <a href="#sample-2c" data-toggle="tab">수원/경기</a>
+                                </li>
+                                <li>
+                                    <a href="#sample-2d" data-toggle="tab">대구/경북</a>
+                                </li>
+                                <li>
+                                    <a href="#sample-2d" data-toggle="tab">부산/경남</a>
+                                </li>
+                                <li>
+                                    <a href="#sample-2d" data-toggle="tab">충청/강원</a>
+                                </li>
+                                <li>
+                                    <a href="#sample-2d" data-toggle="tab">광주/전라</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="sample-2a">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>No.</th>
+                                                            <th>분류</th>
+                                                            <th>제목</th>
+                                                            <th>작성자</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade in" id="sample-2b">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="sample-2c">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade in" id="sample-2d">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <ul class="pagination">
+                                        <li>
+                                            <a href="#">«</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">2</a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#">3</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">4</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">5</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">»</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- End Main Column -->
+                    <!-- Side Column -->
+                    <div class="col-md-3">
+                        <!-- Recent Posts -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">신규 게시글</h3>
+                            </div>
+                            <div class="panel-body">
+                                <ul class="posts-list margin-top-10">
+                                    <li>
+                                        <div class="recent-post">
+                                            <a href="">
+                                                <img class="pull-left" src="assets/img/blog/thumbs/thumb1.jpg"
+                                                    alt="thumb1">
+                                            </a>
+                                            <a href="#" class="posts-list-title">Sidebar post example</a>
+                                            <br>
+                                            <span class="recent-post-date">
+                                                July 30, 2013
+                                            </span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </li>
+                                    <li>
+                                        <div class="recent-post">
+                                            <a href="">
+                                                <img class="pull-left" src="assets/img/blog/thumbs/thumb2.jpg"
+                                                    alt="thumb2">
+                                            </a>
+                                            <a href="#" class="posts-list-title">Sidebar post example</a>
+                                            <br>
+                                            <span class="recent-post-date">
+                                                July 30, 2013
+                                            </span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </li>
+                                    <li>
+                                        <div class="recent-post">
+                                            <a href="">
+                                                <img class="pull-left" src="assets/img/blog/thumbs/thumb3.jpg"
+                                                    alt="thumb3">
+                                            </a>
+                                            <a href="#" class="posts-list-title">Sidebar post example</a>
+                                            <br>
+                                            <span class="recent-post-date">
+                                                July 30, 2013
+                                            </span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </li>
+                                    <li>
+                                        <div class="recent-post">
+                                            <a href="">
+                                                <img class="pull-left" src="assets/img/blog/thumbs/thumb4.jpg"
+                                                    alt="thumb4">
+                                            </a>
+                                            <a href="#" class="posts-list-title">Sidebar post example</a>
+                                            <br>
+                                            <span class="recent-post-date">
+                                                July 30, 2013
+                                            </span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End recent Posts -->
+                        <!-- 공지사항 -->
+                        <div class="panel panel-danger">
+                            <!-- 이슈 시작-->
+                            <div class="panel-heading">
+                                <a href="http://myroom.oceanmate.co.kr/bbs/board.php?bo_table=roomate"
+                                    style="color:darkslategray">
+                                    <span class="pull-right lightgray font-16 en">+</span>
+                                    <span class="div-title-underbar-bold border-navy font-16 en">
+                                        <b>공지사항</b>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="widget-box panel-body" style="background-color: white;">
+                                <div class="basic-post-list ">
+
+                                    <ul class="post-list" style="list-style: none; padding:0px">
+                                        <li class="ellipsis">
+                                            <a
+                                                href="http://myroom.oceanmate.co.kr/bbs/board.php?bo_table=roomate&amp;wr_id=134">
+
+                                                <span class="pull-right gray font-12">
+                                                    &nbsp;7시간전 </span>
+                                                <span class="wr-icon wr-new"></span> <span class="subject_title"><b>한글깨짐
+                                                        오류 수정안내</b></span>
+                                            </a>
+                                        </li>
+                                        <li class="ellipsis">
+                                            <a
+                                                href="http://myroom.oceanmate.co.kr/bbs/board.php?bo_table=roomate&amp;wr_id=133">
+
+                                                <span class="pull-right gray font-12">
+                                                    &nbsp;22시간전 </span>
+                                                <span class="wr-icon wr-new"></span> <span
+                                                    class="subject_title"><b>모바일에서의 클릭시 오류 수정안내</b></span>
+                                            </a>
+                                        </li>
+                                        <li class="ellipsis">
+                                            <a
+                                                href="http://myroom.oceanmate.co.kr/bbs/board.php?bo_table=roomate&amp;wr_id=132">
+
+                                                <span class="pull-right gray font-12">
+                                                    &nbsp;1일전 </span>
+                                                <span class="wr-icon wr-new"></span> <span class="subject_title">사이트 글쓰기
+                                                    장애에 대한 사과공지</span>
+                                            </a>
+                                        </li>
+                                        <li class="ellipsis">
+                                            <a
+                                                href="http://myroom.oceanmate.co.kr/bbs/board.php?bo_table=roomate&amp;wr_id=131">
+
+                                                <span class="pull-right gray font-12">
+                                                    &nbsp;6일전 </span>
+                                                <span class="lightgray"><i class="fa fa-caret-right"></i></span> <span
+                                                    class="subject_title">광고가
+                                                    겹쳐서 사용이 안되시는 회원님
+                                                </span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- 이슈 끝-->
+                        </div>
+                        <!-- End 공지사항 -->
+                    </div>
+                    <!-- End Side Column -->
+                </div>
+            </div>
+
+            <div class="margin-bottom-30">
+                    <hr>
+                </div>
+            
+        </div>
+        <!-- === END CONTENT === -->
+        <!-- === BEGIN FOOTER === -->
+        <div id="base">
+                <div class="container bottom-border padding-vert-30">
+                    <div class="row">
+                        <!-- Disclaimer -->
+                        <div class="col-md-4">
+                            <h3 class="class margin-bottom-10">세상을 바꾸는 작은 힘</h3>
+                            <p> "가정에 건강과 행복이 가득하기를 기도합니다"</p>
+                            <p>책임의 한계와 법적고지사항에서 다루고 있는 세부사항들은 관계당사자들간의 총체적인 합의사항이며, 본 사이트의 개별서비스에서 정하고 있는 별도의 약관, 고지사항 등과 상충되는 경우에는 별도의 약관 또는 고지사항을 우선 적용합니다.</p>
+                        </div>
+                        <!-- End Disclaimer -->
+                        <!-- Contact Details -->
+                        <div class="col-md-4 margin-bottom-20">
+                            <h3 class="margin-bottom-10">문의하기</h3>
+                            <p>
+                                <span class="fa-phone">전화번호 :</span>1544-9970
+                                <br>
+                                <span class="fa-envelope">이메일 :</span>
+                                <a href="mailto:info@example.com">bangpool@bps.com</a>
+                                <br>
+                                <span class="fa-link">웹사이트 :</span>
+                                <a href="http://www.iei.or.kr/">http://www.iei.or.kr/</a>
+                            </p>
+                            <p>서울시 강남구 역삼동 
+                                <br>태헤란로 테헤란로14길 
+                                <br>6 남도빌딩,
+                                <br>KH 정보교육원</p>
+                        </div>
+                        <!-- End Contact Details -->
+                        <!-- Sample Menu -->
+                        <div class="col-md-4 margin-bottom-20">
+                            <h3 class="margin-bottom-10">바로가기</h3>
+                            <ul class="menu">
+                                <li>
+                                    <a class="fa-tasks" href="#">HOME</a>
+                                </li>
+                                <li>
+                                    <a class="fa-users" href="#">ROOMMATE</a>
+                                </li>
+                                <li>
+                                    <a class="fa-signal" href="#">HOUSEMATE</a>
+                                </li>
+                                <li>
+                                    <a class="fa-coffee" href="#">FREECYCLE</a>
+                                </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- End Sample Menu -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <div id="footer" class="background-grey">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Menu -->
+                        <div id="footermenu" class="col-md-8">
+                            <ul class="list-unstyled list-inline">
+                                <li>
+                                    <a href="#" target="_blank">사이트 소개</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">이용약관</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">이메일 무단수집거부</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">책임의 한계와 법적고지</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Footer Menu -->
+                        <!-- Copyright -->
+                        <div id="copyright" class="col-md-4">
+                            <p class="pull-right"> <span class="glyphicon glyphicon-tree-deciduous"></span>방풀 <span class="glyphicon glyphicon-copyright-mark"></span>All rights reserved.</p>
+                        </div>
+                        <!-- End Copyright -->
+                    </div>
+                </div>
+            </div>
+        <!-- End Footer -->
+        <!-- JS -->
+        <script type="text/javascript" src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/scripts.js"></script>
+        <!-- Isotope - Portfolio Sorting -->
+        <script type="text/javascript" src="assets/js/jquery.isotope.js" type="text/javascript"></script>
+        <!-- Mobile Menu - Slicknav -->
+        <script type="text/javascript" src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
+        <!-- Animate on Scroll-->
+        <script type="text/javascript" src="assets/js/jquery.visible.js" charset="utf-8"></script>
+        <!-- Sticky Div -->
+        <script type="text/javascript" src="assets/js/jquery.sticky.js" charset="utf-8"></script>
+        <!-- Slimbox2-->
+        <script type="text/javascript" src="assets/js/slimbox2.js" charset="utf-8"></script>
+        <!-- Modernizr -->
+        <script src="assets/js/modernizr.custom.js" type="text/javascript"></script>
+
+
+
+
+
+        <!-- End JS -->
+
+
+
+
+</body>
+
+</html>
+<!-- === END FOOTER === -->
